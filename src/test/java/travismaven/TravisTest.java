@@ -18,7 +18,7 @@ public class TravisTest {
 	@Test
 	public void testMul() {
 		Travis calc = new Travis();
-		assertEquals(calc.mul(3, 5), 16);
+		assertEquals(calc.mul(3, 5), 15);
 	}
 	@Test
 	public void testDiv() {
